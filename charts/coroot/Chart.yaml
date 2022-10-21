@@ -11,5 +11,5 @@ dependencies:
     condition: prometheus.enabled
   - name: node-agent
     version: 0.1.1
-    repository: https://apetruhin.github.io/helm-charts
+    repository: https://coroot.github.io/helm-charts
     condition: node-agent.enabled
