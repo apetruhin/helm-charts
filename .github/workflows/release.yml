@@ -25,7 +25,7 @@ jobs:
           version: v3.10.0
 
       - name: Add dependency chart repos
-        run: helm dependency update
+        run: helm dependency update coroot
 #          helm repo add prometheus-community https://prometheus-community.github.io/helm-charts
 #          helm repo add coroot https://apetruhin.github.io/helm-charts
 
